@@ -7,7 +7,7 @@ import javax.sql.rowset.spi.SyncResolver;
 public class QuizApp {
     private static final Scanner scanner = new Scanner(System.in);
     private static int score = 0;
-    private static final int TIME_LIMIT = 10; // Time limit in seconds for each question
+    private static final int TIME_LIMIT = 10; 
     private static boolean answered = false;
     
 
